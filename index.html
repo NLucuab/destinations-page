@@ -11,15 +11,17 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <section class="container text-center">
+    <section id="title-container" class="container text-center">
         <h1 id="vacay-title">Vacation Destinations WishList</h1>
         <p id="sub-title">Found somewhere you've always wanted to visit? Store them here for now, and make it a reality later!</p>
     </section>
     <main class="container">
         <section class="row">
             <section class="col-md-3">
+                <h4 id="form-header">Enter Destination Info:</h4>
                 <form class="destination-form">
                     <section class="d-flex flex-column">
+
                         <label class="p-2" for="dest-name">Destination Name:</label>
                         <input class="p-2" type="text" name="dest-name" id="dest-name" placeholder="Enter destination name here" required>
                         <label class="p-2" for="location">Location:</label>
@@ -28,8 +30,24 @@
                         <input class="p-2" type="text" name="photo" id="photo" placeholder="Enter an image url here">
                         <label class="p-2" for="descrption">Description:</label>
                         <input class="p-2" type="text" name="description" id="description" placeholder="Describe your location here">
+                        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
                     </section>
                 </form> 
+            </section>
+            <section class="col-md-9 text-center">
+                <h4>Destinations Saved:</h3>
+                <section class="card-container">
+                    <!--card example, will be removed-->
+                    <div class="card">
+                        <img src="https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/6/2016/02/Kanagawa-.jpg" alt="Yokohama">
+                        <h5 class="card-title">Yokohama</h5>
+                        <p class="card-text">My favorite city in Japan</p>
+                        <section class="card-footer text-center">
+                            <a href="#" class="btn btn-primary">Edit</a>
+                            <a href="#" class="btn btn-danger"> Delete</a>
+                        </section>
+                    </div>
+                </section>
             </section>
         </section>
     </main>

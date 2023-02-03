@@ -7,3 +7,48 @@
 #sub-title {
     font-size: 1.25rem;
 }
+
+#title-container {
+    background-color: lavender;
+    color: darkorchid;
+    margin: 50px;
+}
+
+.submit-btn {
+    padding: 0.5rem;
+    margin-top: 25px;
+}
+
+.col-md-3, .col-md-9 {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-container {
+    padding: 30px;
+    border: 2px solid darkorchid;
+}
+
+.card {
+    width: 13rem;
+    border: 1px solid black;
+}
+
+.card-footer {
+    height: 55px;
+    padding-bottom: 30px;
+}
+
+h5 {
+    padding-top: 10px;
+}
+
+section {
+    display: block;
+}
+
+body {
+    background-color: lavender;
+    overflow:hidden
+}
